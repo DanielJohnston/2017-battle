@@ -10,6 +10,7 @@ require 'rspec'
 
 Capybara.app = Battle
 
+# This sets Capybara up to use a REMOTE Selenium server
 Capybara.javascript_driver = :selenium_remote_chrome
 Capybara.register_driver "selenium_remote_chrome".to_sym do |app|
   Capybara::Selenium::Driver.new(app, browser: :remote, url: "http://localhost:4445/wd/hub", desired_capabilities: :chrome)
