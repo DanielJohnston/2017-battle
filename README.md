@@ -22,4 +22,16 @@ I want my attack to reduce Player 2's HP by 10
 As two Players,
 So we can continue our game of Battle,
 We want to switch turns
+
+As Player 1,
+So I can see how close I am to losing,
+I want to see my own hit points
+
+As Player 1,
+So I can lose a game of Battle,
+I want Player 2 to attack me, and I want to get a confirmation
+
+As Player 1,
+So I can start to lose a game of Battle,
+I want Player 2's attack to reduce my HP
 ```

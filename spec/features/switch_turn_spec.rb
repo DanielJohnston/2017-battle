@@ -13,5 +13,4 @@ describe 'Switch turns' do
       expect(page).to have_content "Mittens's turn"
     end
   end
-
 end
