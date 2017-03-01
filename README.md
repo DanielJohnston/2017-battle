@@ -34,4 +34,8 @@ I want Player 2 to attack me, and I want to get a confirmation
 As Player 1,
 So I can start to lose a game of Battle,
 I want Player 2's attack to reduce my HP
+
+As a Player,
+So I can Lose a game of Battle,
+I want to see a 'Lose' message if I reach 0HP first
 ```
